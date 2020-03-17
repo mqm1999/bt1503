@@ -26,14 +26,14 @@ public class Bt2 {
         }
         System.out.print("Cac phan tu o vi tri chan: ");
         for (int i = 0; i < 10; i++) {
-            if (i % 2 != 0) {
+            if (i % 2 == 0) {
                 System.out.print(" " + arr[i]);
             }
         }
         System.out.println("");
         System.out.print("Cac phan tu o vi tri le: ");
         for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0) {
+            if (i % 2 != 0) {
                 System.out.print(" " + arr[i]);
             }
         }
